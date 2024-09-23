@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-gray-900 text-gray-300;
+}
+
+body,
+input,
+textarea,
+button {
+	@apply font-roboto font-normal text-base;
+}
+
+:focus {
+	outline: transparent;
+	box-shadow: 0 0 0 2px #00875f;
+}
